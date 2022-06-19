@@ -16,6 +16,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>manju123</finalName>
+    <finalName>manju123.war</finalName>
   </build>
 </project>
