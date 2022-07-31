@@ -10,14 +10,8 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'mvn clean package'
+                sh "mvn clean package"
             }
-        }
-        stage('Prod') {
-            steps {
-                echo 'Hello Prod stage'
-                
-            }
+       
         }
     }
-}
