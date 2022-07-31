@@ -10,14 +10,13 @@ pipeline {
         }
         stage('Test') {
             steps {
-                build 'test'
-                echo 'Hello Test stage'
+                sh "mvn clean package"
             }
         }
         stage('Prod') {
             steps {
                 echo 'Hello Prod stage'
-                build quietPeriod: 4, job: 'Job1'
+                
             }
         }
     }
