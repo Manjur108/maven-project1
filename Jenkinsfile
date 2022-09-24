@@ -9,7 +9,7 @@ pipeline {
     }
          
 	    } 
-	stage ("mvn ck"){
+	stage ('mvn ck'){
      steps {
 	    sh 'mvn clean install'
 	  }
