@@ -7,6 +7,10 @@ pipeline {
             }
 
 	    }
-
+         stage('build the code') {
+            steps {
+		sh ' mvn clean install'
+	    }    
+    }		    
 	    }
 }	    
