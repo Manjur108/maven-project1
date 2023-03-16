@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>testproject</groupId>
   <artifactId>ProjectWeb</artifactId>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
   <version>75.0</version>
   <name>ProjectWeb Maven Webapp</name>
   <url>http://maven.apache.org</url>
@@ -16,6 +16,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>manju123.war</finalName>
+    <finalName>manju123</finalName>
   </build>
 </project>
